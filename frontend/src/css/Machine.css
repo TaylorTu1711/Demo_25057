@@ -1,0 +1,99 @@
+.machine-title {
+  color: #007BFF;
+  font-weight: 700;
+}
+
+.machine-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+.machine-card h5 {
+  color: #007BFF;
+}
+
+.machine-card .fs-4 {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.machine-label {
+  font-weight: 600;
+  color: #007BFF;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  border-color: #007BFF;
+}
+
+.btn-outline-primary {
+  color: #007BFF;
+  border-color: #007BFF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+.offcanvas-title {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.modal-backdrop {
+  z-index: 1050 !important;
+}
+
+.modal {
+  z-index: 1060 !important;
+}
+
+.menu-item {
+  font-size: 20px;
+  color: #000;
+  border-radius: 6px;
+  transition: all 0.2s ease; /* hiệu ứng mượt */
+}
+
+.menu-item:hover {
+  background-color: #f5f5f5 !important;
+  transform: scale(1.03); /* phóng to nhẹ */
+}
+
+.machine-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(32, 64, 154, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.machine-title:hover {
+  transform: scale(1.05);
+}
+
+.my-div {
+  width: 83%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .my-div {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
