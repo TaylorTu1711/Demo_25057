@@ -10,6 +10,8 @@ import {
   Title,
   Tooltip,
   Legend,
+  BarController,    
+  LineController,
 } from 'chart.js';
 
 ChartJS.register(
@@ -21,6 +23,8 @@ ChartJS.register(
   Legend,
   zoomPlugin,
   ChartDataLabels,
+  BarController,    
+  LineController,
 );
 
 const BarChart_Error = ({ labels, dataValues }) => {

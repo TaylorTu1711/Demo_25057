@@ -79,8 +79,9 @@ export const addMachine = async (req, res) => {
 export const deleteMachine = async (req, res) => {
 
   const machine_id = req.params.id;
+  const alarmTableName = `alarm${machine_id}`;
   try {
-    await pool.query('DELETE FROM alarmsmachines WHERE machine_id = $1', [machine_id]);
+    await pool.query(`DROP TABLE IF EXISTS "${alarmTableName}"`);
     await pool.query('DELETE FROM machines WHERE machine_id = $1', [machine_id]);
     await pool.query(`DROP TABLE IF EXISTS "${machine_id}"`);
     res.status(200).json({ message: 'Xoá thành công' });

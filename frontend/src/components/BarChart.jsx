@@ -13,6 +13,8 @@ import {
   Title,
   Tooltip,
   Legend,
+  BarController,    
+  LineController,
 } from 'chart.js';
 
 ChartJS.register(
@@ -24,6 +26,8 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
+  BarController,    
+  LineController,
   zoomPlugin,
 );
 
